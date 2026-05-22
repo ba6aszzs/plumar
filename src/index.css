@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@plugin "tailwindcss-animate";
+
+:root {
+  --accent: #F5F0E8;
+  --bg: #1C1917;
+  --text: #7F1D1D;
+  --muted: #7F1D1D;
+  --line: rgba(255,255,255,0.08);
+  --radius: 0;
+}
+
+@theme inline {
+  --color-accent: var(--accent);
+  --color-bg: var(--bg);
+  --color-muted: rgba(0,0,0,0.4);
+  --font-display: "Maven Pro", sans-serif;
+  --font-body: "Ysabeau SC", sans-serif;
+}
+
+@layer base {
+  * { -webkit-tap-highlight-color: transparent; }
+  body {
+    background-color: #1C1917;
+    color: #7F1D1D;
+    font-family: var(--font-body);
+    -webkit-font-smoothing: antialiased;
+  }
+}
+html { scroll-behavior: smooth; }

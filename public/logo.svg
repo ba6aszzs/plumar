@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 140" fill="none">
+  <defs>
+    <linearGradient id="pg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7F1D1D"/>
+      <stop offset="100%" stop-color="#F5F0E8"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(30, 20)">
+    <path d="M50 12 L75 32 Q80 40 75 48 L50 68 L25 48 Q20 40 25 32 Z" stroke="#7F1D1D" stroke-width="2" fill="none"/>
+    <path d="M50 18 Q60 30 55 42 Q50 35 40 42 Q35 30 50 18" fill="#7F1D1D" opacity="0.3"/>
+    <text x="50" y="50" font-family="'Maven Pro',sans-serif" font-size="16" font-weight="900" fill="#7F1D1D" text-anchor="middle" dominant-baseline="middle">P</text>
+  </g>
+  <text x="115" y="70" font-family="'Maven Pro','Segoe UI',sans-serif" font-size="40" font-weight="900" fill="#7F1D1D" letter-spacing="5">PLUMAR</text>
+  <text x="115" y="108" font-family="'Maven Pro','Segoe UI',sans-serif" font-size="18" font-weight="400" fill="#1C1917" letter-spacing="8">EDITORA</text>
+  <line x1="115" y1="116" x2="440" y2="116" stroke="#7F1D1D" stroke-width="1" opacity="0.2"/>
+</svg>
